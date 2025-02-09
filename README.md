@@ -67,6 +67,8 @@ php artisan key:generate
 ### 5. Run Migrations & Seed Database
 ```
 php artisan migrate --seed
+php artisan db:seed
+
 ```
 
 ### 6. Build Frontend Assets
