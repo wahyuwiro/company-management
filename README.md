@@ -59,19 +59,14 @@ MAIL_FROM_ADDRESS=your_email@gmail.com
 MAIL_FROM_NAME="Your App Name"
 ```
 
-### 4. Generate Application Key
-```
-php artisan key:generate
-```
-
-### 5. Run Migrations & Seed Database
+### 4. Run Migrations & Seed Database
 ```
 php artisan migrate --seed
 php artisan db:seed
 
 ```
 
-### 6. Build Frontend Assets
+### 5. Build Frontend Assets
 ```
 npm run dev
 ```
@@ -80,7 +75,7 @@ For production, use:
 npm run build
 ```
 
-### 7. Serve the Application
+### 6. Serve the Application
 his will start the Laravel development server at http://127.0.0.1:8000
 
 ## Usage
