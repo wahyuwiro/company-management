@@ -62,7 +62,7 @@ MAIL_FROM_NAME="Your App Name"
 ### 4. Run Migrations & Seed Database
 ```
 php artisan migrate --seed
-php artisan db:seed
+php artisan db:seed --class=UserSeeder
 
 ```
 
